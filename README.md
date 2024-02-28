@@ -1,2 +1,4 @@
 # Home_Sales
-repository for bootcamp hw module 22 big data
+This repository for the edX Data Analytics and Visualization Bootcamp affiliated with Case Western Reserve University. The assignmnet in this repo is meant to demonstrate skills learned in module 22 about big data.
+
+Using the provided starter code, I created the file Home_Sales.ipynb and completed the assigned tasks in that notebook. For this assignment I used SparkSQL to answer questions using home sales data. I then used Spark to cache and uncache a temporary table and to partition the data using parquet. I used the different methods to compare the runtime of a particular query. The fastest runtime of that query was 0.27 seconds using the cached temporary table. The slowest runtime was 0.68 seconds using the partitioned parquet data.
